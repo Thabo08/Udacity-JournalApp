@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editDiaryEntry"
+        style="@style/EditTextStyle"
+        android:hint="@string/edit_text_hint"/>
+
+    <EditText
+        android:id="@+id/editDiaryContent"
+        style="@style/EditTextStyle"
+        android:hint="@string/edit_text__content_hint"/>
+
+    <Button
+        android:id="@+id/saveDiaryEntryButton"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="@string/save_entry_btn"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:tooltipText="@string/save_btn_tooltip"
+        android:textColor="@android:color/primary_text_dark" />
+</LinearLayout>

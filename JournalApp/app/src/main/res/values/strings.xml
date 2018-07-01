@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="title_activity_diary2">DiaryActivity2</string>
+    <string name="title_activity_diary">DiaryActivity</string>
+
+    <string name="update_entry_btn">Modify</string>
+    <string name="save_entry_btn">Save</string>
+    <string name="edit_text_hint">Add Diary Title</string>
+    <string name="edit_text__content_hint">Add Diary Content</string>
+
+    <string name="add_diary_entry_label">Add Diary Entry</string>
+    <string name="diary_details_entry_label">Details</string>
+    <string name="save_btn_tooltip">Save or Modify Diary Entry</string>
+</resources>
